@@ -1,10 +1,10 @@
 language: rust
-sudo: false
 
 matrix:
   include:
     - rust: stable
     - os: osx
+    - os: windows
     - rust: beta
     - rust: nightly
 
